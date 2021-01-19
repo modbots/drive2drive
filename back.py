@@ -8,7 +8,7 @@ S = '-s '
 D = ' -d '
 C = ' --copy '
 os.system('python3 autorclone.py '+ C + S + firstD + D + secondD)
-#os.system('python3 autorclone.py --copy -s 0AKmMDVgNh7gdUk9PVA -d 0ACT5UpIf3zQMUk9PVA')
+
 time.sleep(15)
 os.system('rclone --config rclone-generated.conf size src001:')
 os.system('rclone --config rclone-generated.conf size dst001:')
