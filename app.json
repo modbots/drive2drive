@@ -1,0 +1,35 @@
+{
+  "name": "AUTOBACKUP GOOGLE DRIVE by Moediyu",
+  "description": "FOR TEAM DRIVES BACKUP",
+  "logo": "https://i.imgur.com/ZLi4nDP.jpg",
+  "keywords": [
+    "AUTOBACKUP",
+    "GOOGLE DRIVES",
+    "FREE TRIAL",
+    "MOEDYIU"
+  ],
+  "repository": "https://github.com/modbots/autorcloneSchedule",
+  "website":   "https://github.com/modbots/autorcloneSchedule",
+  "success_url": "https://t.me/moedyiu",
+  "env": {
+    "first": {
+      "description": "MainDrive ID ထည့်ပါ အဆိုပါ Drive ထဲရှိ ဖိုင်များကိုသာ အဆင့်ဆင့် Backup လုပ်ဆောင်သွားမည်ဖြစ်သည်",
+      "value": "",
+      "required": true
+    },
+    "second": {
+      "description": "သင်၏ Backup Drive ID 1 ထည့်ပါ ၎င်း Drive ထဲသို့ MainDrive ထဲမှ ဖိုင်များကို Backup လုပ်ပေးပါမည်",
+      "value": "",
+      "required": true
+    },
+    "third": {
+      "description": "သင်၏ Backup Drive ID 2 ထည့်ပါ ၎င်း Drive ထဲသို့ Backup Drive ID 1 ထဲမှ ဖိုင်များကို Backup လုပ်ပေးပါမည်",
+      "value": "",
+      "required": false
+    }
+    
+  },
+  "buildpacks": [{
+    "url": "heroku/python"
+  }]
+}
