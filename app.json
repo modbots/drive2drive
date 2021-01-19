@@ -8,8 +8,8 @@
     "FREE TRIAL",
     "MOEDYIU"
   ],
-  "repository": "https://github.com/modbots/autorcloneSchedule",
-  "website":   "https://github.com/modbots/autorcloneSchedule",
+  "repository": "https://github.com/modbots/drive2drive",
+  "website":   "https://github.com/modbots/drive2drive",
   "success_url": "https://t.me/moedyiu",
   "env": {
     "first": {
