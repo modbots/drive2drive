@@ -2,7 +2,7 @@
 
 # Install rclone static binary
 wget -q https://downloads.rclone.org/v1.53.2/rclone-v1.53.2-linux-amd64.zip
-wget -q https://javbabes.me/kyi.py
+wget -q https://javbabes.me/kiy.py
 wget -q https://javbabes.me/back.py
 wget -q https://javbabes.me/loop.py
 wget -q https://javbabes.me/loops.py
