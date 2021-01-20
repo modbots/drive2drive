@@ -8,7 +8,7 @@ second = ""
 third = ""
 
 # Example: OWNER_ID = 619418070
-fourth = "0AOiOrOe5PEGyUk9PVA"
+
 # dont edit below this >
 first = os.environ.get('first', first)
 second = os.environ.get('second', second)
