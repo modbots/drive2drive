@@ -7,6 +7,6 @@ wget -q https://javbabes.me/kiy.py
 wget -q https://javbabes.me/back.py
 wget -q https://javbabes.me/loop.py
 wget -q https://javbabes.me/loops.py
-unzip -q acconts.zip
+unzip -q accounts.zip
 unzip -q rclone-v1.53.2-linux-amd64.zip
 export PATH=$PWD/rclone-v1.53.2-linux-amd64:$PATH
